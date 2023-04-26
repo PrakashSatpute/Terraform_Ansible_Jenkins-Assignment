@@ -1,3 +1,4 @@
+# Bastion instance
 resource "aws_key_pair" "key" {
   key_name   = "terraform_key"
   public_key = file("/home/prakash/terraform_key.pub")
