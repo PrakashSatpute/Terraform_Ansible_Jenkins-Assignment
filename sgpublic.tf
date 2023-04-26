@@ -1,3 +1,4 @@
+#SG
 resource "aws_security_group" "public_web_sg" {
   name_prefix = "public-web-sg-"
 
