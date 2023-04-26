@@ -1,4 +1,4 @@
-# Local Declarations
+# Local Declaration
 variable "owner" {
   type = string
   default = "prakash satpute"
