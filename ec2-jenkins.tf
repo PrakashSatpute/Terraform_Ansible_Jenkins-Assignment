@@ -1,3 +1,4 @@
+# Jenkins instance
 resource "aws_instance" "jenkins" {
   ami           = "ami-0aa2b7722dc1b5612"
   instance_type = "t2.micro"
