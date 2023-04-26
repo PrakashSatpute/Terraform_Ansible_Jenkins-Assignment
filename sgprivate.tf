@@ -1,3 +1,4 @@
+#SG
 resource "aws_security_group" "private_instances_sg" {
   name_prefix = "private-instances-sg-"
 
